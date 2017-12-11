@@ -31,23 +31,21 @@ public class Jauge : EventJauge
 
     #endregion
     public void RefreshJauge() {
-        switch (EventJauge) {
+        switch (m_kind) {
+
+            case 1:
+                m_jauge[0].image.fillAmount = m_jauge[0].image.fillAmount+1;
+                break;
+
+
 
 
 
 
         }
 
-        if ()
-        {
-
-
-        } 
-        m_jauge[0].image.fillAmount = m_jauge[0].image.fillAmount;
-
     }
     #region Private and Protected Members
     private List<Button> m_jauge;
-    private 
     #endregion
 }

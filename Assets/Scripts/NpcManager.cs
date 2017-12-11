@@ -34,6 +34,6 @@ public class NpcControler : MonoBehaviour
 
     #endregion
     [SerializeField]
-    private List<Npc> m_image_lib;
+    public List<Npc> m_image_lib { get; private set; }
 
 }

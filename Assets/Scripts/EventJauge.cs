@@ -33,8 +33,8 @@ public class EventJauge : MonoBehaviour
     #endregion
 
     #region Private and Protected Members
-    private Image m_image { get; set; }
-    private string m_description { get; set; }
+    public Image m_image { get; set; }
+    public string m_description { get; set; }
     public int m_kind {  get; private set; }
     #endregion
 
