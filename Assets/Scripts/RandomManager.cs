@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandomManager : GameControler
+public class RandomManager : Game
 {
     #region Public Members
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ControlManager : GameManager
+public class ControlManager : Game
 {
     #region Public Members
 

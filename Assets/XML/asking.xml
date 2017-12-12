@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <AskingCollection>
+   <Asking>
+ 		<ask>
+		Question 1
+ 		</ask>
+ 		<type>
+		religious
+		</type>
+		<lang>
+		fr
+		</lang>
+		<pos>
+		1011
+		</pos>
+		<neg>
+		0500
+		</neg>
+		<result1>
+		Il fait beau 
+		</result1>
+ 	</Asking>
+   <Asking>
+ 		<ask>
+		Question 2
+ 		</ask>
+ 		<type>
+		religious
+		</type>
+		<lang>
+		fr
+		</lang>
+		<pos>
+		1600
+		</pos>
+		<neg>
+		3000
+		</neg>
+		<result1>
+		Il y a de l'orage
+		</result1>
+ 	</Asking>
+   <Asking>
+ 		<ask>
+		Question 3
+ 		</ask>
+ 		<type>
+		religious
+		</type>
+		<lang>
+		fr
+		</lang>
+		<pos>
+		7810
+		</pos>
+		<neg>
+		8412
+		</neg>
+		<result1>
+		C'est la fête au village
+		</result1>
+ 	</Asking>
+ </AskingCollection>

@@ -1,40 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Xml.Serialization;
 
-public class Npc : NpcControler
+public class Npc
 
 {
     #region Public Members
-
+    [XmlArrayItem("image")]
+    public string image;
+    [XmlArrayItem("description")]
+    public string description;
+    [XmlArrayItem("type")]
+    public string type;
+    public AskingContainer m_asking_container;
     #endregion
 
     #region Public void
 
     #endregion
 
-    #region System
-
-    void Start ()
-    {
-        
-    }
-
-    void Update ()
-    {
-        	
-    }
-
-    #endregion
-
-    #region Tools Debug and Utility
-
+    #region Tools Debug and Utility   
     #endregion
 
     #region Private and Protected Members
-    private Image m_image { get; set; }
-    private string m_description { get; set; }
-    private int m_kind { get; set; }
+    //Voir si plusieurs état d'image
+    
+    
+
     #endregion
 }
