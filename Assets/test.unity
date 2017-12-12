@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 298443788}
   - component: {fileID: 298443787}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btn_no
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -720,7 +720,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 298443788}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1449917468}
+        m_MethodName: ClickNo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &298443788
@@ -834,10 +845,9 @@ GameObject:
   m_Component:
   - component: {fileID: 385431963}
   - component: {fileID: 385431966}
-  - component: {fileID: 385431965}
   - component: {fileID: 385431964}
   m_Layer: 5
-  m_Name: Avatar
+  m_Name: Npc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -873,7 +883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5, g: 0.46691176, b: 0.46691176, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -888,17 +898,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &385431965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 385431962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e854a10dfb0bdfd4ea191c2ab2456bbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &385431966
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1922,7 +1921,7 @@ GameObject:
   - component: {fileID: 1324765817}
   - component: {fileID: 1324765816}
   m_Layer: 5
-  m_Name: Button
+  m_Name: btn_yes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1985,7 +1984,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1324765817}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1449917468}
+        m_MethodName: ClickYes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1324765817
@@ -2301,6 +2311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e854a10dfb0bdfd4ea191c2ab2456bbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_npc_zone: {fileID: 385431963}
+  m_ask_zone: {fileID: 1348878400}
+  m_yes: {fileID: 1324765816}
+  m_no: {fileID: 298443787}
 --- !u!4 &1449917469
 Transform:
   m_ObjectHideFlags: 0
@@ -2662,7 +2676,7 @@ GameObject:
   - component: {fileID: 2032066713}
   - component: {fileID: 2032066712}
   m_Layer: 5
-  m_Name: Panel_avatar
+  m_Name: Panel_npc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2699,7 +2713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9632353, g: 0.54536116, b: 0.54536116, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

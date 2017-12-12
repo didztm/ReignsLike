@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NpcCollection>
 	<Npc>
-		<image>captain</image>
+		<image>captain.png</image>
 		<description>Npc 1</description>
 		<type>Army</type>
 	</Npc>	
 	<Npc>
-		<image>pika</image>
+		<image>pika.jpg</image>
 		<description>Npc 2</description>
 		<type>Religion</type>
 	</Npc>	
 	<Npc>
-		<image>spider</image>
+		<image>spider.jpg</image>
 		<description>Npc 3</description>
 		<type>People </type>
 	</Npc>	
 	<Npc>
-		<image>superman</image>
+		<image>superman.jpg</image>
 		<description>Npc 4</description>
 		<type>Rich </type>
 	</Npc>	
 	<Npc>
-		<image>witch</image>
+		<image>witch.png</image>
 		<description>Npc 5</description>
 		<type>Army</type>
 	</Npc>	
